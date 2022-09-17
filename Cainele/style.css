@@ -1,0 +1,19 @@
+.beagle {
+  padding-left: 300px;
+  padding-right: 500px;
+}
+aside {
+  width: 20%;
+  border-right: 1px solid grey;
+  float: left;
+  height: 500px;
+}
+img {
+  border: solid grey;
+  border-radius: 50%;
+  width: 150px;
+  text-align: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

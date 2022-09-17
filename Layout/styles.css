@@ -1,0 +1,75 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.6rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eeee;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+
+img {
+  width: 150px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+a:link,
+a:visited {
+  background-color: black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: grey;
+}
+.phone {
+  color: white;
+  margin-left: auto;
+}
+.image-container {
+  margin: 0;
+  padding: 0;
+}
+.grafitti {
+  width: 100%;
+}
+.join-our-team {
+  position: relative;
+  left: 1400px;
+  top: -100px;
+}
+.main-container {
+  display: flex;
+}
+.general-presentation {
+  padding: 10px;
+}
+.quote {
+  border-right: solid grey;
+  padding-right: 10px;
+}
+.wall-ball {
+  width: 100%;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}

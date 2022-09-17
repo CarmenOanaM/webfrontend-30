@@ -1,0 +1,41 @@
+header {
+  background-color: lightgray;
+  margin: 0%;
+  padding: 0%;
+}
+img {
+  width: 200px;
+  border-radius: 45%;
+  margin-right: 27cm;
+}
+.meniu {
+  display: inline-block;
+  text-align: right;
+}
+body {
+  background-color: ghostwhite;
+}
+hr.new1 {
+  border: 10px solid grey;
+}
+h2 {
+  font-style: italic;
+}
+aside {
+  width: 18%;
+  position: relative;
+  padding-left: 15px;
+  margin-left: 1200px;
+  margin-top: 50px;
+  font-size: medium;
+  font-style: italic;
+  background-color: lightgray;
+}
+.dialog {
+  font-size: medium;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+span {
+  font-size: medium;
+  font-style: italic;
+}

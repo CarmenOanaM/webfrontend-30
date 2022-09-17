@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formular comanda</title>
+  </head>
+  <body>
+    <form>
+      <input name="subject" type="hidden" value="Class" />
+
+      <fieldset>
+        <legend>Detalii client</legend>
+        <label for="prenume">Prenume</label>
+        <input type="text" name="prenume" id="prenume" />
+        <br />
+        <label for="nume">Nume </label>
+        <input type="text" name="nume" id="nume" />
+        <br />
+        Apelativ:
+        <input name="gen" type="radio" id="dl" value="m" />
+        <label for="dl">Domnul</label>
+        <input name="gen" type="radio" id="dna" value="f" />
+        <label for="dna">Dna</label>
+        <br />
+        <label for="email">Adresa de e-mail</label>
+        <input type="text" name="email" id="email" />
+        <label for="cont">Parola</label>
+        <input type="password" name="cont" />
+      </fieldset>
+      <fieldset>
+        <legend>Detalii comanda</legend>
+        <label for="tip">Tip produs</label>
+        <select name="tip" id="tip">
+          <option value="prod1" selected="selected">produs1</option>
+          <option value="prod2">produs2</option>
+          <option value="prod3">produs3</option>
+          <option value="prod4">produs4</option>
+        </select>
+        <br />
+        <label for="str">Strada</label>
+        <input type="text" name="str" />
+        <label for="loc">Localitatea</label>
+        <select multiple name="localitati" id="localitati">
+          <option value="1">Targu Mures</option>
+          <option value="2">Bucuresti</option>
+          <option value="3">Cluj</option>
+          <option value="4">Brasov</option>
+          <option value="5">Oradea</option>
+          <option value="6">Iasi</option>
+          <option value="7">Timisoara</option>
+        </select>
+      </fieldset>
+      <p>
+        <textarea name="terms" cols="30" rows="4" readonly="readonly">
+Alte detalii</textarea
+        >
+      </p>
+      <p>
+        <input type="submit" name="submit" value="Send Form" />
+        <input type="reset" value="Clear Form" />
+      </p>
+    </form>
+  </body>
+</html>

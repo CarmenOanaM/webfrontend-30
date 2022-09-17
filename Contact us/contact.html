@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formular de contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact us</h1>
+      <h3>Feel free to contact us</h3>
+    </header>
+    <br /><br />
+    <div class="container">
+      <form action="action_page.php" class="entry">
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="name" placeholder="Your name.." />
+
+        <label for="email">Email</label>
+        <input
+          type="text"
+          id="yemail"
+          name="email"
+          placeholder="Your email..."
+        />
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="About..." />
+      </form>
+
+      <form action="action_page.php">
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Write your message here.."
+          style="height: 200px"
+        >
+        </textarea>
+        <input type="submit" value="Send message" />
+      </form>
+    </div>
+    <br /><br />
+    <footer class="our-social-media">
+      <h4>Or find us on social media</h4>
+      <ul class="social-sites">
+        <li><a href="https://www.facebook.com/CrossFitTGM/">Facebook</a></li>
+        <li><a href="https://twitter.com/crossfittgm">Twitter</a></li>
+        <li>
+          <a href="https://www.instagram.com/crossfittargumures/">Instagram</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
